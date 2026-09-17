@@ -80,6 +80,7 @@ export const projects: Project[] = [
   filters: ['Websites', 'Hospitality'],
   scale: 'medium',
   featured: false,
+  image: '/images/nine.png',
   deployment: 'Vercel'
 },
 {
@@ -87,12 +88,12 @@ export const projects: Project[] = [
   index: '07',
   title: 'SHAH Hospitality Group',
   category: 'Hospitality Website',
-  url: 'https://vercel.com/envic-digital-s-projects/sha-hospitality-group',
+  url: 'https://sha-hospitality-group.vercel.app/',
   focus: 'Hospitality digital experience and business presentation.',
   filters: ['Websites', 'Hospitality'],
   scale: 'small',
   featured: false,
-  image: '/images/Envic_Global.png',
+  image: '/images/SHA Hospitality.png',
   deployment: 'Vercel'
 },
 {
@@ -105,6 +106,7 @@ export const projects: Project[] = [
   filters: ['Websites', 'Business'],
   scale: 'small',
   featured: false,
+  image: "/images/Norman's Cleaning.png",
   deployment: 'Vercel'
 },
 {
