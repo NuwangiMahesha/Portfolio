@@ -90,23 +90,19 @@ export function About() {
               <div
                 className="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-accent-purple/40 via-accent-blue/20 to-transparent opacity-60"
                 aria-hidden="true" />
-              
               <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-ink-850">
-                <div
-                  className="relative flex aspect-[4/5] items-center justify-center"
-                  role="img"
-                  aria-label="Professional portrait placeholder — awaiting photograph">
-                  
-                  <div className="grid-texture absolute inset-0 opacity-60" aria-hidden="true" />
-                  <div className="relative flex flex-col items-center gap-3 text-center">
-                    <span className="flex h-12 w-12 items-center justify-center rounded-full border border-white/12 bg-white/[0.03]">
-                      <UserIcon className="h-5 w-5 text-mute-400" />
-                    </span>
-                    <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-mute-400">
-                      Portrait pending
-                    </span>
+                  <div
+                    className="relative flex aspect-[4/5] items-center justify-center overflow-hidden"
+                    role="img"
+                    aria-label={`Professional portrait of ${profile.name}`}>
+                    
+                    <img
+                      src="/images/my_photo.jpg"
+                      alt={profile.name}
+                      className="absolute inset-0 h-full w-full object-cover"
+                      loading="lazy"
+                    />
                   </div>
-                </div>
                 <figcaption className="flex items-baseline justify-between border-t border-white/[0.07] px-5 py-4">
                   <span className="text-sm font-medium text-white">{profile.name}</span>
                   <span className="font-mono text-[10px] uppercase tracking-[0.16em] text-mute-400">

@@ -15,6 +15,7 @@ export const projects: Project[] = [
   filters: ['Web Applications', 'Booking'],
   scale: 'hero',
   featured: true,
+  image: '/images/AEON.png',
   deployment: 'Vercel'
 },
 {
@@ -27,6 +28,7 @@ export const projects: Project[] = [
   filters: ['E-Commerce', 'Web Applications'],
   scale: 'hero',
   featured: true,
+  image: '/images/Ayiraa.png',
   deployment: 'Vercel'
 },
 {
@@ -38,7 +40,8 @@ export const projects: Project[] = [
   focus: 'Professional corporate website and healthcare technology presentation.',
   filters: ['Websites', 'Healthcare'],
   scale: 'large',
-  featured: true
+  featured: true,
+  image: '/images/Sync_Rcm.png'
 },
 {
   id: 'jr-hospital',
@@ -51,6 +54,7 @@ export const projects: Project[] = [
   filters: ['Websites', 'Healthcare'],
   scale: 'large',
   featured: false,
+  image: '/images/JR-Hospital.png',
   deployment: 'Vercel'
 },
 {
@@ -63,6 +67,7 @@ export const projects: Project[] = [
   filters: ['Websites', 'Creative'],
   scale: 'medium',
   featured: false,
+  image: '/images/Monkeytattoo.png',
   deployment: 'Vercel'
 },
 {
@@ -87,6 +92,7 @@ export const projects: Project[] = [
   filters: ['Websites', 'Hospitality'],
   scale: 'small',
   featured: false,
+  image: '/images/Envic_Global.png',
   deployment: 'Vercel'
 },
 {
@@ -111,6 +117,7 @@ export const projects: Project[] = [
   filters: ['Websites', 'Business'],
   scale: 'small',
   featured: false,
+  image: '/images/frimz_cleaning.png',
   deployment: 'Vercel'
 }];
 
