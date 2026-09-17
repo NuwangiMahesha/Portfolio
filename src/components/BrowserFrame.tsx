@@ -60,7 +60,7 @@ export function ProjectPreview({ title, index, category, image, className = '' }
         alt={`${title} — ${category} website screenshot`}
         loading="lazy"
         decoding="async"
-        className={`h-full w-full object-cover object-top transition-transform duration-500 ease-premium group-hover:scale-[1.04] ${className}`} />);
+        className={`h-full w-full object-cover object-top transition-all duration-[5000ms] ease-in-out group-hover:object-bottom group-hover:scale-[1.02] ${className}`} />);
 
 
   }

@@ -53,7 +53,7 @@ export function ProjectCard({ project, onOpen, heightClass }: ProjectCardProps) 
           aria-label={`Open case study for ${project.title}`}
           className="block w-full text-left">
           
-          <BrowserFrame url={project.url} className="transition-colors duration-300 ease-premium group-hover:border-white/25">
+          <BrowserFrame url={project.url} className="transition-all duration-500 ease-out group-hover:border-white/30 group-hover:shadow-[0_0_40px_rgba(255,255,255,0.1)]">
             <div className={`relative overflow-hidden ${heightClass}`}>
               <ProjectPreview
                 title={project.title}
